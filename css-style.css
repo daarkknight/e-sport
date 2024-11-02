@@ -1,0 +1,238 @@
+/* Style Général */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #f2f2f2;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #333;
+    color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5em;
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.header nav ul li a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ff6b6b;
+}
+
+/* Membres */
+.Joueurs {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.Joueur {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+}
+
+.Joueur img {
+    width: 50%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.Joueur h3 {
+    color: #ff6b6b;
+}
+
+/* Style pour la section de contact */
+.contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #2c2c2c;
+    border-radius: 8px;
+}
+.contact-container h2 {
+    text-align: center;
+    color: #fff;
+}
+.contact-container label {
+    display: block;
+    margin-top: 15px;
+    color: #fff;
+}
+.contact-container input, .contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    background-color: #444;
+    color: #fff;
+}
+.contact-container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.contact-container button:hover {
+    background-color: #45a049;
+}
+
+/* Section de présentation tournois */
+#home {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.intro h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e67e22;
+}
+
+
+/* Section des tournois */
+
+#tournaments {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #1a1a1a;
+}
+
+#tournaments h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff6b6b;
+}
+
+.tournament-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tournament-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.tournament-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #222;
+    color: #ddd;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.social-icon.discord {
+    background-color: #5865F2; /* Couleur Discord */
+}
+
+.social-icon.youtube {
+    background-color: #FF0000; /* Couleur YouTube */
+}
+
+.social-icon.twich {
+    background-color: #640164; /* Couleur YouTube */
+}
+
+
+.social-icon.instagram {
+    background: radial-gradient(circle at 30% 30%, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    /* Couleur dégradée Instagram */
+}
+
+.social-icon:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}

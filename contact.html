@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Team e-Sport</title>
+    <link rel="stylesheet" href="css-style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Team e-Sport</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À Propos</a></li>
+                <li><a href="members.html">Membres</a></li>
+                <li><a href="tournaments.html">Tournois</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contact-container">
+        <h2>Contactez-nous</h2>
+        <form action="submit_contact.php" method="post">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="object">Objet</label>
+            <input type="text" id="object" name="object" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+
+</body>
+</html>
